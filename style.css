@@ -1,0 +1,163 @@
+body {
+  font-family: 'Forum', serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff69b4; /* Pembe renk */
+}
+
+.search-button {
+  background-color: #ff69b4;
+  border: none;
+}
+
+.search-button:hover {
+  background-color: #ff1493;
+}
+
+.navbar-divider {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin-top: -1px;
+}
+
+.content-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.content-box:hover {
+  transform: scale(1.05);
+  background-color: #ffc0cb; /* Pembe renk */
+}
+
+.content-box .icon {
+  font-size: 2rem;
+  color: #ff69b4;
+  margin-bottom: 10px;
+}
+
+.content-box .box-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.content-box p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.news-box {
+  margin-bottom: 20px;
+}
+
+.news-link {
+  display: block;
+  text-decoration: none;
+}
+
+.news-image {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.news-image:hover {
+  transform: scale(1.05);
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #333;
+}
+
+.footer-logo-description {
+  font-size: 1rem;
+  color: #777;
+}
+
+.footer-logo {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e7e7e7;
+  padding: 20px 0;
+}
+
+footer a {
+  color: #343a40;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.footer-logo-text p {
+  text-align: justify;
+}
+
+.btn-pink {
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+}
+
+.btn-pink:hover {
+  background-color: #ff1493;
+}
+
+.contact-form-title {
+  text-align: center;
+  color: #ff69b4;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  background-color: #fff0f6;
+  border: 1px solid #ff69b4;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-label {
+  color: #ff69b4;
+}
+
+.contact-form .form-control {
+  border: 1px solid #ff69b4;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+  border-color: #ff69b4;
+}
+
+.contact-form .btn-pink {
+  width: 100%;
+}
